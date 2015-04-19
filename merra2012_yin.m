@@ -117,8 +117,8 @@ end
 % Variables and Preconditions
 UzJan  = transpose(Ujan);       %transpose mean zonal wind -> U(P,Lat)                                   
 UzJuly = transpose(Ujuly);      %transpose mean zonal wind -> U(P,Lat)
-TzJan  = transpose(Tjan);       %transpose mean zonal temp -> U(P,Lat) 
-TzJuly = transpose(Tjuly);      %transpose mean zonal temp -> U(P,Lat)
+TzJan  = transpose(Tjan);       %transpose mean zonal temp -> T(P,Lat) 
+TzJuly = transpose(Tjuly);      %transpose mean zonal temp -> T(P,Lat)
 
 % Plot the graphs for January
 figure(1)
