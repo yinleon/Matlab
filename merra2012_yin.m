@@ -2,16 +2,17 @@
 % This is code written by Leon Yin for an assignment in Olivier Pauluis'  %
 % Atmosphere, Ocean, and Climate Dynamics course taught at Courant        %
 % Institute of Mathematics.                                               %
+%                                                                         %
 % All referenced figures are from Marshall and Plumb's textbook of the    %
 % same name.                                                              %
 %                                                                         %
 % This code uses reanalysis data from NASA satalite observations.         %
-% The data taken from a 2012 reanalysis fron NASA Merra contains          %
-% rich datafields in 4-dimensions(longitude,latitude,pressure,month)      %
+% Data taken from a 2012 reanalysis fron NASA's Merra system contains     %
+% rich 4-dimensional(longitude,latitude,pressure,month) datafields.       %
 % The data is scrubbed and used to calculate the zonally averaged         %
 % (1a) temperature, (1b) wind velocity, (2) mass transport, and           %
-% (3) reletive humidity. This data is used to answer questions about      %
-% convection cells, jetstreams, and atmospheric moisture.                 %
+% (3) reletive humidity for January and July 2013. The data is used       %
+% to analyze convection cells, jetstreams, and atmospheric moisture.      %
 %                                                                         %
 % Submitted: April 20th, 2015                                             %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
