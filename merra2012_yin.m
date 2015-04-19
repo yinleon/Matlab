@@ -1,12 +1,20 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% This is code written by Leon Yin for an assignment in Olivier Pauluis' %
-% Atmosphere, Ocean, and Climate Dynamics course taught at Courant       %
-% Institute of Mathematics.                                              %
-% All referenced figures are from Marshall and Plumb's textbook of the   %
-% same name.                                                             %
-%                                                                        %
-% Submitted: April 20th, 2015                                            %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is code written by Leon Yin for an assignment in Olivier Pauluis'  %
+% Atmosphere, Ocean, and Climate Dynamics course taught at Courant        %
+% Institute of Mathematics.                                               %
+% All referenced figures are from Marshall and Plumb's textbook of the    %
+% same name.                                                              %
+%                                                                         %
+% This code uses reanalysis data from NASA satalite observations.         %
+% The data taken from a 2012 reanalysis fron NASA Merra contains          %
+% rich datafields in 4-dimensions(longitude,latitude,pressure,month)      %
+% The data is scrubbed and used to calculate the zonally averaged         %
+% (1a) temperature, (1b) wind velocity, (2) mass transport, and           %
+% (3) reletive humidity. This data is used to answer questions about      %
+% convection cells, jetstreams, and atmospheric moisture.                 %
+%                                                                         %
+% Submitted: April 20th, 2015                                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clear all
 close all
 
@@ -127,7 +135,7 @@ set(gca,'ydir','rev');  %invert the y-axis to show data from ground->up.
 clabel(C)
 xlabel('Latitude')
 ylabel('Pressure (mb)')
-title('Zonal-Average Velocity in January 2012')
+title('Zonal-Average Wind Velocity in January 2012')
 colorbar
 
 figure(2)
@@ -146,7 +154,7 @@ set(gca,'ydir','rev');  %invert the y-axis to show data from ground->up.
 clabel(C)
 xlabel('Latitude')
 ylabel('Pressure (mb)')
-title('Zonal-Average Velocity in July 2012')
+title('Zonal-Average Wind Velocity in July 2012')
 colorbar
 
 figure(4)
