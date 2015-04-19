@@ -8,7 +8,7 @@
 %                                                                         %
 % This code uses reanalysis data from NASA satalite observations.         %
 % Data taken from a 2012 reanalysis fron NASA's Merra system contains     %
-% rich 4-dimensional(longitude,latitude,pressure,month) datafields.       %
+% rich 4-dimensional(longitude,latitude,pressure,month) data fields.      %
 % The data is scrubbed and used to calculate the zonally averaged         %
 % (1a) temperature, (1b) wind velocity, (2) mass transport, and           %
 % (3) reletive humidity for January and July 2012. The data is used       %
@@ -183,9 +183,9 @@ colorbar
 %                                                                         %
 %    NOTE: cos(arg) takes an argument in radians.                         %
 %                                                                         %
-%    Identify the Hadley and Ferrel cells in the figures and indicates    %
-%    where are the ascent and subsidence regions. Discuss the intensity of% 
-%    these circulations and how they vary between the winter and summer.  %
+%    Identify the Hadley and Ferrel cells in the figures and indicate     %
+%    the ascent and subsidence regions. Discuss the intensity of these    %
+%    circulations and how they vary between the winter and summer.        %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Variables and Preconditions
