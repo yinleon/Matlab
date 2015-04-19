@@ -11,7 +11,7 @@
 % rich 4-dimensional(longitude,latitude,pressure,month) datafields.       %
 % The data is scrubbed and used to calculate the zonally averaged         %
 % (1a) temperature, (1b) wind velocity, (2) mass transport, and           %
-% (3) reletive humidity for January and July 2013. The data is used       %
+% (3) reletive humidity for January and July 2012. The data is used       %
 % to analyze convection cells, jetstreams, and atmospheric moisture.      %
 %                                                                         %
 % Submitted: April 20th, 2015                                             %
